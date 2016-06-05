@@ -1,13 +1,13 @@
 # aws_cloudwatch_collectd
 collectd plugin for aws cloudwatch 
 
-## Requirements:
+### Requirements:
 
 - Boto3
 
-## Installation:
+### Installation:
 
-## Configuration:
+### Configuration:
 
 '''sh
 LoadPlugin python
@@ -17,8 +17,8 @@ LoadPlugin python
   Interactive false
   Import cloudwatch
   <Module cloudwatch>
-    aws_access_key_id "AKIAI7ITXT7VFIF4RAMA"
-    aws_secret_access_key "iyKpzZiIB78tAlhBcf8dKYv0ySKjx4nvLdpQnuaP"
+    aws_access_key_id "<your access key>"
+    aws_secret_access_key "<your secret access key>"
   </Module>
 </Plugin>
 '''
